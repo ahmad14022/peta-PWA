@@ -1,0 +1,24 @@
+/* Reset some default styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    align-self: center;
+}
+
+#map {
+    height: 400px;
+    margin: 0 5rem;
+    border-radius: 25px;
+}
